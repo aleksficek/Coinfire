@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550B4E5020BBB23C00247616 /* arrow 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 550B4E4F20BBB23B00247616 /* arrow 3.png */; };
+		550B4E5420BBB31E00247616 /* Torquise Fill Good.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 550B4E5120BBB31B00247616 /* Torquise Fill Good.PNG */; };
+		550B4E5520BBB31E00247616 /* Grey Border Good.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 550B4E5220BBB31C00247616 /* Grey Border Good.PNG */; };
+		550B4E5620BBB31E00247616 /* Torquise Border Good.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 550B4E5320BBB31C00247616 /* Torquise Border Good.PNG */; };
+		550B4E5820C0D4E200247616 /* Back-arrow-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 550B4E5720C0D4DF00247616 /* Back-arrow-white.png */; };
+		5514B30C20491ADB0084F673 /* litecoin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5514B30B20491ADA0084F673 /* litecoin.jpg */; };
+		5514B30E20491AE60084F673 /* neo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5514B30D20491AE50084F673 /* neo.jpg */; };
+		5514B31420491AFD0084F673 /* monero.png in Resources */ = {isa = PBXBuildFile; fileRef = 5514B31320491AFD0084F673 /* monero.png */; };
+		5514B31620491B060084F673 /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5514B31520491B050084F673 /* dash.png */; };
+		5514B31A20491DA30084F673 /* dash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5514B31920491DA20084F673 /* dash2.png */; };
+		5514B327204920360084F673 /* dashg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5514B326204920350084F673 /* dashg.png */; };
+		552DFA632064321600164265 /* EthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552DFA622064321600164265 /* EthViewController.swift */; };
+		552F03E72105890C00415711 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 552F03E62105890C00415711 /* GoogleService-Info.plist */; };
+		554224BA204B2AE100655A9D /* etc.png in Resources */ = {isa = PBXBuildFile; fileRef = 554224B9204B2AE100655A9D /* etc.png */; };
+		554224C0204B2D9200655A9D /* trx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 554224BF204B2D9100655A9D /* trx2.png */; };
+		5558C0F9210AB7FA00265D52 /* coinfire_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5558C0F8210AB7F900265D52 /* coinfire_logo.jpg */; };
+		555FDF70201C1450001B42FF /* bitcoinlogopng.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF6F201C1450001B42FF /* bitcoinlogopng.png */; };
+		555FDF72201C1534001B42FF /* bitcoinlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF71201C1534001B42FF /* bitcoinlogo.jpg */; };
+		555FDF74201C2431001B42FF /* Bitcoin_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF73201C2431001B42FF /* Bitcoin_logo.png */; };
+		555FDF76201C246A001B42FF /* Bitcoin-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF75201C246A001B42FF /* Bitcoin-256.png */; };
+		555FDF78201C2640001B42FF /* Thinline.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF77201C2640001B42FF /* Thinline.png */; };
+		555FDF7A201C29A9001B42FF /* etherium.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF79201C29A9001B42FF /* etherium.png */; };
+		555FDF80201C2AD8001B42FF /* bitcoincash.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF7F201C2AD7001B42FF /* bitcoincash.png */; };
+		555FDF84201C2DA2001B42FF /* ripple2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF83201C2DA1001B42FF /* ripple2.png */; };
+		555FDF86201C2E60001B42FF /* cardano2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555FDF85201C2E5F001B42FF /* cardano2.png */; };
+		5570BB3A209ABF4A0084BE21 /* verge.png in Resources */ = {isa = PBXBuildFile; fileRef = 5570BB39209ABF490084BE21 /* verge.png */; };
+		5570BB3C209AC0750084BE21 /* omisego 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5570BB3B209AC0740084BE21 /* omisego 3.png */; };
+		55F84105201C061A00AEC9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F84104201C061A00AEC9A2 /* AppDelegate.swift */; };
+		55F84107201C061A00AEC9A2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F84106201C061A00AEC9A2 /* FirstViewController.swift */; };
+		55F84109201C061A00AEC9A2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F84108201C061A00AEC9A2 /* SecondViewController.swift */; };
+		55F8410C201C061A00AEC9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F8410A201C061A00AEC9A2 /* Main.storyboard */; };
+		55F8410E201C061A00AEC9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F8410D201C061A00AEC9A2 /* Assets.xcassets */; };
+		55F84111201C061A00AEC9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F8410F201C061A00AEC9A2 /* LaunchScreen.storyboard */; };
+		A3410BFE7CE38682EB780AF3 /* Pods_Product1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FA2284B538A05118CBCFA1 /* Pods_Product1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49E7BCEE52B7F72AAF36B87D /* Pods-Product1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Product1/Pods-Product1.release.xcconfig"; sourceTree = "<group>"; };
+		550B4E4F20BBB23B00247616 /* arrow 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow 3.png"; path = "../arrow 3.png"; sourceTree = "<group>"; };
+		550B4E5120BBB31B00247616 /* Torquise Fill Good.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Torquise Fill Good.PNG"; path = "../../Downloads/Torquise Fill Good.PNG"; sourceTree = "<group>"; };
+		550B4E5220BBB31C00247616 /* Grey Border Good.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey Border Good.PNG"; path = "../../Downloads/Grey Border Good.PNG"; sourceTree = "<group>"; };
+		550B4E5320BBB31C00247616 /* Torquise Border Good.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Torquise Border Good.PNG"; path = "../../Downloads/Torquise Border Good.PNG"; sourceTree = "<group>"; };
+		550B4E5720C0D4DF00247616 /* Back-arrow-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-arrow-white.png"; path = "../Back-arrow-white.png"; sourceTree = "<group>"; };
+		5514B30B20491ADA0084F673 /* litecoin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = litecoin.jpg; path = ../litecoin.jpg; sourceTree = "<group>"; };
+		5514B30D20491AE50084F673 /* neo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neo.jpg; path = ../neo.jpg; sourceTree = "<group>"; };
+		5514B31320491AFD0084F673 /* monero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monero.png; path = ../monero.png; sourceTree = "<group>"; };
+		5514B31520491B050084F673 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dash.png; path = ../dash.png; sourceTree = "<group>"; };
+		5514B31920491DA20084F673 /* dash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dash2.png; path = ../dash2.png; sourceTree = "<group>"; };
+		5514B326204920350084F673 /* dashg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dashg.png; path = ../dashg.png; sourceTree = "<group>"; };
+		552DFA622064321600164265 /* EthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthViewController.swift; sourceTree = "<group>"; };
+		552F03E62105890C00415711 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		554224B9204B2AE100655A9D /* etc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = etc.png; path = ../etc.png; sourceTree = "<group>"; };
+		554224BF204B2D9100655A9D /* trx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trx2.png; path = ../trx2.png; sourceTree = "<group>"; };
+		5558C0F8210AB7F900265D52 /* coinfire_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coinfire_logo.jpg; path = ../../Downloads/coinfire_logo.jpg; sourceTree = "<group>"; };
+		555FDF6F201C1450001B42FF /* bitcoinlogopng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitcoinlogopng.png; path = ../bitcoinlogopng.png; sourceTree = "<group>"; };
+		555FDF71201C1534001B42FF /* bitcoinlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bitcoinlogo.jpg; path = ../bitcoinlogo.jpg; sourceTree = "<group>"; };
+		555FDF73201C2431001B42FF /* Bitcoin_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bitcoin_logo.png; path = ../Bitcoin_logo.png; sourceTree = "<group>"; };
+		555FDF75201C246A001B42FF /* Bitcoin-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bitcoin-256.png"; path = "../Bitcoin-256.png"; sourceTree = "<group>"; };
+		555FDF77201C2640001B42FF /* Thinline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Thinline.png; path = ../Thinline.png; sourceTree = "<group>"; };
+		555FDF79201C29A9001B42FF /* etherium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = etherium.png; path = ../etherium.png; sourceTree = "<group>"; };
+		555FDF7F201C2AD7001B42FF /* bitcoincash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitcoincash.png; path = ../bitcoincash.png; sourceTree = "<group>"; };
+		555FDF83201C2DA1001B42FF /* ripple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ripple2.png; path = ../ripple2.png; sourceTree = "<group>"; };
+		555FDF85201C2E5F001B42FF /* cardano2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardano2.png; path = ../cardano2.png; sourceTree = "<group>"; };
+		5570BB39209ABF490084BE21 /* verge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = verge.png; path = ../verge.png; sourceTree = "<group>"; };
+		5570BB3B209AC0740084BE21 /* omisego 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omisego 3.png"; path = "../omisego 3.png"; sourceTree = "<group>"; };
+		55822F44211FEB3700F45DC9 /* Product1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Product1.entitlements; sourceTree = "<group>"; };
+		55F84101201C061A00AEC9A2 /* Product1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Product1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F84104201C061A00AEC9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F84106201C061A00AEC9A2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		55F84108201C061A00AEC9A2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		55F8410B201C061A00AEC9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F8410D201C061A00AEC9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F84110201C061A00AEC9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F84112201C061A00AEC9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8346F72B8ED5AC43B177957E /* Pods-Product1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Product1/Pods-Product1.debug.xcconfig"; sourceTree = "<group>"; };
+		89FA2284B538A05118CBCFA1 /* Pods_Product1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F840FE201C061A00AEC9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3410BFE7CE38682EB780AF3 /* Pods_Product1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F840F8201C061A00AEC9A2 = {
+			isa = PBXGroup;
+			children = (
+				55F84103201C061A00AEC9A2 /* Product1 */,
+				55F84102201C061A00AEC9A2 /* Products */,
+				550B4E5720C0D4DF00247616 /* Back-arrow-white.png */,
+				550B4E5220BBB31C00247616 /* Grey Border Good.PNG */,
+				550B4E5320BBB31C00247616 /* Torquise Border Good.PNG */,
+				550B4E5120BBB31B00247616 /* Torquise Fill Good.PNG */,
+				550B4E4F20BBB23B00247616 /* arrow 3.png */,
+				5570BB3B209AC0740084BE21 /* omisego 3.png */,
+				5570BB39209ABF490084BE21 /* verge.png */,
+				555FDF73201C2431001B42FF /* Bitcoin_logo.png */,
+				555FDF75201C246A001B42FF /* Bitcoin-256.png */,
+				5558C0F8210AB7F900265D52 /* coinfire_logo.jpg */,
+				555FDF7F201C2AD7001B42FF /* bitcoincash.png */,
+				554224BF204B2D9100655A9D /* trx2.png */,
+				555FDF85201C2E5F001B42FF /* cardano2.png */,
+				555FDF83201C2DA1001B42FF /* ripple2.png */,
+				5514B326204920350084F673 /* dashg.png */,
+				554224B9204B2AE100655A9D /* etc.png */,
+				555FDF77201C2640001B42FF /* Thinline.png */,
+				555FDF79201C29A9001B42FF /* etherium.png */,
+				555FDF71201C1534001B42FF /* bitcoinlogo.jpg */,
+				555FDF6F201C1450001B42FF /* bitcoinlogopng.png */,
+				5514B30B20491ADA0084F673 /* litecoin.jpg */,
+				5514B30D20491AE50084F673 /* neo.jpg */,
+				5514B31320491AFD0084F673 /* monero.png */,
+				5514B31920491DA20084F673 /* dash2.png */,
+				5514B31520491B050084F673 /* dash.png */,
+				F737BF6810C2802CD60497A6 /* Pods */,
+				F79C11DBB9DBFD47F1B9E5FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55F84102201C061A00AEC9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F84101201C061A00AEC9A2 /* Product1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F84103201C061A00AEC9A2 /* Product1 */ = {
+			isa = PBXGroup;
+			children = (
+				55822F44211FEB3700F45DC9 /* Product1.entitlements */,
+				55F84104201C061A00AEC9A2 /* AppDelegate.swift */,
+				55F84106201C061A00AEC9A2 /* FirstViewController.swift */,
+				55F84108201C061A00AEC9A2 /* SecondViewController.swift */,
+				552DFA622064321600164265 /* EthViewController.swift */,
+				552F03E62105890C00415711 /* GoogleService-Info.plist */,
+				55F8410A201C061A00AEC9A2 /* Main.storyboard */,
+				55F8410D201C061A00AEC9A2 /* Assets.xcassets */,
+				55F8410F201C061A00AEC9A2 /* LaunchScreen.storyboard */,
+				55F84112201C061A00AEC9A2 /* Info.plist */,
+			);
+			path = Product1;
+			sourceTree = "<group>";
+		};
+		F737BF6810C2802CD60497A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8346F72B8ED5AC43B177957E /* Pods-Product1.debug.xcconfig */,
+				49E7BCEE52B7F72AAF36B87D /* Pods-Product1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F79C11DBB9DBFD47F1B9E5FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FA2284B538A05118CBCFA1 /* Pods_Product1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F84100201C061A00AEC9A2 /* Product1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F84115201C061A00AEC9A2 /* Build configuration list for PBXNativeTarget "Product1" */;
+			buildPhases = (
+				0CC1CD8952B3B94991AC0C54 /* [CP] Check Pods Manifest.lock */,
+				55F840FD201C061A00AEC9A2 /* Sources */,
+				55F840FE201C061A00AEC9A2 /* Frameworks */,
+				55F840FF201C061A00AEC9A2 /* Resources */,
+				05E9050FB7CCACF178C14602 /* [CP] Embed Pods Frameworks */,
+				14F89ACC0E6EAA26AFC9C151 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Product1;
+			productName = Product1;
+			productReference = 55F84101201C061A00AEC9A2 /* Product1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F840F9201C061A00AEC9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aleks;
+				TargetAttributes = {
+					55F84100201C061A00AEC9A2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 55F840FC201C061A00AEC9A2 /* Build configuration list for PBXProject "Product1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F840F8201C061A00AEC9A2;
+			productRefGroup = 55F84102201C061A00AEC9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F84100201C061A00AEC9A2 /* Product1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F840FF201C061A00AEC9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552F03E72105890C00415711 /* GoogleService-Info.plist in Resources */,
+				55F84111201C061A00AEC9A2 /* LaunchScreen.storyboard in Resources */,
+				555FDF74201C2431001B42FF /* Bitcoin_logo.png in Resources */,
+				5514B327204920360084F673 /* dashg.png in Resources */,
+				550B4E5620BBB31E00247616 /* Torquise Border Good.PNG in Resources */,
+				5514B30C20491ADB0084F673 /* litecoin.jpg in Resources */,
+				550B4E5820C0D4E200247616 /* Back-arrow-white.png in Resources */,
+				550B4E5420BBB31E00247616 /* Torquise Fill Good.PNG in Resources */,
+				5514B31A20491DA30084F673 /* dash2.png in Resources */,
+				555FDF78201C2640001B42FF /* Thinline.png in Resources */,
+				555FDF7A201C29A9001B42FF /* etherium.png in Resources */,
+				5570BB3C209AC0750084BE21 /* omisego 3.png in Resources */,
+				550B4E5020BBB23C00247616 /* arrow 3.png in Resources */,
+				555FDF80201C2AD8001B42FF /* bitcoincash.png in Resources */,
+				554224C0204B2D9200655A9D /* trx2.png in Resources */,
+				5514B30E20491AE60084F673 /* neo.jpg in Resources */,
+				555FDF84201C2DA2001B42FF /* ripple2.png in Resources */,
+				55F8410E201C061A00AEC9A2 /* Assets.xcassets in Resources */,
+				555FDF76201C246A001B42FF /* Bitcoin-256.png in Resources */,
+				5558C0F9210AB7FA00265D52 /* coinfire_logo.jpg in Resources */,
+				554224BA204B2AE100655A9D /* etc.png in Resources */,
+				550B4E5520BBB31E00247616 /* Grey Border Good.PNG in Resources */,
+				55F8410C201C061A00AEC9A2 /* Main.storyboard in Resources */,
+				555FDF86201C2E60001B42FF /* cardano2.png in Resources */,
+				555FDF70201C1450001B42FF /* bitcoinlogopng.png in Resources */,
+				5570BB3A209ABF4A0084BE21 /* verge.png in Resources */,
+				5514B31620491B060084F673 /* dash.png in Resources */,
+				5514B31420491AFD0084F673 /* monero.png in Resources */,
+				555FDF72201C1534001B42FF /* bitcoinlogo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E9050FB7CCACF178C14602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Product1/Pods-Product1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Product1/Pods-Product1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CC1CD8952B3B94991AC0C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Product1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14F89ACC0E6EAA26AFC9C151 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Product1/Pods-Product1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F840FD201C061A00AEC9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F84109201C061A00AEC9A2 /* SecondViewController.swift in Sources */,
+				55F84105201C061A00AEC9A2 /* AppDelegate.swift in Sources */,
+				552DFA632064321600164265 /* EthViewController.swift in Sources */,
+				55F84107201C061A00AEC9A2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55F8410A201C061A00AEC9A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F8410B201C061A00AEC9A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F8410F201C061A00AEC9A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F84110201C061A00AEC9A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F84113201C061A00AEC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F84114201C061A00AEC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F84116201C061A00AEC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8346F72B8ED5AC43B177957E /* Pods-Product1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V962MK3A7;
+				INFOPLIST_FILE = Product1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksanderficek.coinfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55F84117201C061A00AEC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E7BCEE52B7F72AAF36B87D /* Pods-Product1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V962MK3A7;
+				INFOPLIST_FILE = Product1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksanderficek.coinfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F840FC201C061A00AEC9A2 /* Build configuration list for PBXProject "Product1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F84113201C061A00AEC9A2 /* Debug */,
+				55F84114201C061A00AEC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F84115201C061A00AEC9A2 /* Build configuration list for PBXNativeTarget "Product1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F84116201C061A00AEC9A2 /* Debug */,
+				55F84117201C061A00AEC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F840F9201C061A00AEC9A2 /* Project object */;
+}
